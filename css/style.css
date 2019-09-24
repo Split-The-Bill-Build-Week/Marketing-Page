@@ -42,3 +42,24 @@
         min-width: 250px;
     }
 }
+
+.tabs{
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    height: 56px;
+    background-color: transparent;
+}
+.tabs .tab{
+    text-align: center;
+}
+.tabs .tab a{
+    color: white;
+    margin-top: 10px;
+}
+.tabs .tab a:hover{
+    color: white;
+}
+.tabs .tab a.active{
+    color: white;
+}
