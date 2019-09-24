@@ -19,10 +19,13 @@
 .cards div div{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-content: center;
+    justify-content: center;
     width: 250px;
     height: 250px;
+}
+.card .card-content{
+    padding: 12px;
+    padding-left: 0;
 }
 @media screen and (max-width: 992px){
     .cards div{
@@ -40,10 +43,34 @@
         width: 100%;
         min-width: 250px;
     }
-
-    footer {
-      margin-top: 2rem;
+    #view-plates{
+        margin-bottom: 5%;
     }
+    .card .card-content{
+        padding: 12px;
+    }
+}
+
+.tabs{
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    height: 56px;
+    background-color: transparent;
+}
+.tabs .tab{
+    text-align: center;
+}
+.tabs .tab a{
+    color: white;
+    margin-top: 10px;
+}
+.tabs .tab a:hover{
+    color: white;
+}
+.tabs .tab a.active{
+    color: white;
+
 }
 * {
   max-width: 100%;
