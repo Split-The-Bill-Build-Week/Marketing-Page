@@ -1,4 +1,3 @@
-
 .cards div{
     display: flex;
     flex-direction: row;
@@ -20,10 +19,13 @@
 .cards div div{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-content: center;
+    justify-content: center;
     width: 250px;
     height: 250px;
+}
+.card .card-content{
+    padding: 12px;
+    padding-left: 0;
 }
 @media screen and (max-width: 992px){
     .cards div{
@@ -40,6 +42,12 @@
     .cards div div{
         width: 100%;
         min-width: 250px;
+    }
+    #view-plates{
+        margin-bottom: 5%;
+    }
+    .card .card-content{
+        padding: 12px;
     }
 }
 
@@ -62,4 +70,10 @@
 }
 .tabs .tab a.active{
     color: white;
+}
+* {
+  max-width: 100%;
+}
+.hero-img-section {
+  height: 45%;
 }
