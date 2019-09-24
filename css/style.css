@@ -78,3 +78,25 @@
 .hero-img-section {
   height: 45%;
 }
+
+.mobile-nav{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+}
+.sidenav{
+    width: 40%;
+    min-width: 200px;
+    height: 100%;
+    background-color: #ee6e73;
+    align-content: center;
+}
+.sidenav .tab{
+    height: 2px;
+    align-items: center;
+    align-content: center;
+}
+.sidenav .tab a{
+    height: 56px;
+}
