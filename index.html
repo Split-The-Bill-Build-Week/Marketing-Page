@@ -1,314 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Split The Bill</title>
 
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.1/css/all.min.css"
-      integrity="sha256-PbSmjxuVAzJ6FPvNYsrXygfGhNJYyZ2GktDbkMBqQZg="
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body id="home" class="scrollspy">
-    <div class="navbar-fixed">
-      <nav>
-        <div class="nav-wrapper">
-          <div class="container">
-            <a href="#home" class="brand-logo scrollspy">Split The Bill</a>
-            <a href="" data-target="mobile-nav" class="sidenav-trigger">
-              <i class="material-icons">menu</i>
-            </a>
-            <ul class="right hide-on-med-and-down">
-              <li><a href="#about">About Us</a></li>
-              <li><a href="#features">Features</a></li>
-              <li><a href="#team">Our Team</a></li>
-              <li>
-                <a href="#" class="waves-effect waves-light btn">Sign In</a>
-              </li>
-            </ul>
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Split The Bill</title>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.1/css/all.min.css" integrity="sha256-PbSmjxuVAzJ6FPvNYsrXygfGhNJYyZ2GktDbkMBqQZg=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body id="home" class="scrollspy">
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <div class="container">
+          <a href="#home" class="brand-logo scrollspy">Split The Bill</a>
+          <a href="" data-target="mobile-nav" class="sidenav-trigger">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#team">Our Team</a></li>
+            <li>
+              <a href="#" class="waves-effect waves-light btn">Sign In</a>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Side Nav -->
+  <ul class="sidenav" id="mobile-nav">
+    <li>
+      <a href="#home">Split The Bill</a>
+    </li>
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#team">Our Team</a></li>
+    <li>
+      <a href="#" class="waves-effect waves-light btn">Sign In</a>
+    </li>
+  </ul>
+
+  <!-- About Section -->
+  <section class="section about-section">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <img class="responsive-img" src="img/dinner_party.png" alt="Dinner Party" />
+        </div>
+
+        <div id="about" class="col s12 center scrollspy">
+          <h4>About</h4>
+          <p class="flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Aspernatur, placeat ut ea minus praesentium quam sunt mollitia
+            nulla omnis dolorum minima quos aliquam est alias odit molestias
+            harum sequi ad.
+          </p>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.l</p>
+        </div>
+      </div>
     </div>
+  </section>
 
-    <ul class="sidenav" id="mobile-nav">
-      <li>
-        <a href="#home">Split The Bill</a>
-      </li>
-      <li><a href="#about">About Us</a></li>
-      <li><a href="#features">Features</a></li>
-      <li><a href="#team">Our Team</a></li>
-      <li>
-        <a href="#" class="waves-effect waves-light btn">Sign In</a>
-      </li>
-    </ul>
+  <!-- Team Section -->
+  <section class="section section-features lighten-2 deep-orange-text text-darken-4 scrollspy" id="team">
 
-    <section class="section about-section">
-      <div class="container">
-        <div class="row">
-          <div class="col s12">
-            <img
-              class="responsive-img"
-              src="img/dinner_party.png"
-              alt="Dinner Party"
-            />
-          </div>
+    <div class="container">
+      <div class="row">
+        <div class="col s12 center">
+          <h2>Team Members</h2>
+          <p>View All Of Our Team Members</p>
+        </div>
+      </div>
 
-          <div id="about" class="col s12 center scrollspy">
-            <h4>About</h4>
+      <div class="row">
+        <div class="col s12 m4 center">
+          <div class="card-panel">
+            <img src="img/anthony_sutton.jpg" alt="Anthony Sutton" class="responsive-img" />
+            <p>Anthony Sutton</p>
             <p class="flow-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Aspernatur, placeat ut ea minus praesentium quam sunt mollitia
-              nulla omnis dolorum minima quos aliquam est alias odit molestias
-              harum sequi ad.
+              Web User Interface Developer
             </p>
+            <a href="https://github.com/mranthonysutton" target="_blank">
+              <button class="btn waves-effect waves-light" type="submit" name="action">
+                GitHub
+                <i class="material-icons right">send</i>
+              </button>
+            </a>
+          </div>
+        </div>
+
+        <div class="col s12 m4 center">
+          <div class="card-panel">
+            <img src="img/nicolas_janes.jpg" alt="Nicolas Janes" class="responsive-img" />
+            <p>Nicolas Janes</p>
+            <p class="flow-text">
+              Web User Interface Developer
+            </p>
+            <a href="https://github.com/nijanes97" target="_blank">
+              <button class="btn waves-effect waves-light" type="submit" name="action">
+                GitHub
+                <i class="material-icons right">send</i>
+              </button>
+            </a>
+          </div>
+        </div>
+
+        <div class="col s12 m4 center">
+          <div class="card-panel">
+            <img src="img/modurotolu_olokode.png" alt="Modurotolu Olokode" class="responsive-img" />
+            <p>Modurotolu Olokode</p>
+            <p class="flow-text">
+              App Front End Developer
+            </p>
+            <a href="https://github.com/durotolu" target="_blank">
+              <button class="btn waves-effect waves-light" type="submit" name="action">
+                GitHub
+                <i class="material-icons right">send</i>
+              </button>
+            </a>
           </div>
         </div>
       </div>
-    </section>
 
-    <!-- Team Section -->
-    <section
-      class="section section-features lighten-2 deep-orange-text text-darken-4 scrollspy"
-      id="team"
-    >
-      <div class="container">
-        <div class="row">
-          <div class="col s12 center">
-            <h2>Team Members</h2>
-            <p>View All Of Our Team Members</p>
+      <div class="row">
+        <div class="col s12 m4 center">
+          <div class="card-panel">
+            <img src="img/eralp_kor.jpeg" alt="Eralp Korucubasi" class="responsive-img" />
+            <p>Eralp Korucubasi</p>
+            <p class="flow-text">
+              App Front End Developer
+            </p>
+            <a href="https://github.com/eralpkor" target="_blank">
+              <button class="btn waves-effect waves-light" type="submit" name="action">
+                GitHub
+                <i class="material-icons right">send</i>
+              </button>
+            </a>
           </div>
         </div>
 
-        <div class="row">
-          <div class="col m12 l6 center">
-            <div class="card-panel">
-              <img
-                src="img/anthony_sutton.jpg"
-                alt="Anthony Sutton"
-                class="responsive-img"
-              />
-              <p>Anthony Sutton</p>
-              <p class="flow-text">
-                Web User Interface Developer
-              </p>
-              <a href="https://github.com/mranthonysutton" target="_blank">
-                <button
-                  class="btn waves-effect waves-light"
-                  type="submit"
-                  name="action"
-                >
-                  GitHub
-                  <i class="material-icons right">send</i>
-                </button>
-              </a>
-            </div>
-          </div>
-
-          <div class="col m12 l6 center">
-            <div class="card-panel">
-              <img
-                src="img/nicolas_janes.jpg"
-                alt="Nicolas Janes"
-                class="responsive-img"
-              />
-              <p>Nicolas Janes</p>
-              <p class="flow-text">
-                Web User Interface Developer
-              </p>
-              <a href="https://github.com/nijanes97" target="_blank">
-                <button
-                  class="btn waves-effect waves-light"
-                  type="submit"
-                  name="action"
-                >
-                  GitHub
-                  <i class="material-icons right">send</i>
-                </button>
-              </a>
-            </div>
+        <div class="col s12 m4 center">
+          <div class="card-panel">
+            <img src="img/christopher_johnson.jpeg" alt="Trevor Bruenchenhein" class="responsive-img" />
+            <p>Christopher Johnson</p>
+            <p class="flow-text">
+              App Front End Developer
+            </p>
+            <a href="https://github.com/chrismjohnston" target="_blank">
+              <button class="btn waves-effect waves-light" type="submit" name="action">
+                GitHub
+                <i class="material-icons right">send</i>
+              </button>
+            </a>
           </div>
         </div>
 
-        <div class="row">
-          <div class="col m12 l6 center">
-            <div class="card-panel">
-              <img
-                src="img/modurotolu_olokode.png"
-                alt="Modurotolu Olokode"
-                class="responsive-img"
-              />
-              <p>Modurotolu Olokode</p>
-              <p class="flow-text">
-                App Front End Developer
-              </p>
-              <a href="https://github.com/durotolu" target="_blank">
-                <button
-                  class="btn waves-effect waves-light"
-                  type="submit"
-                  name="action"
-                >
-                  GitHub
-                  <i class="material-icons right">send</i>
-                </button>
-              </a>
-            </div>
-          </div>
-
-          <div class="col m12 l6 center">
-            <div class="card-panel">
-              <img
-                src="img/eralp_kor.jpeg"
-                alt="Eralp Korucubasi"
-                class="responsive-img"
-              />
-              <p>Eralp Korucubasi</p>
-              <p class="flow-text">
-                App Front End Developer
-              </p>
-              <a href="https://github.com/eralpkor" target="_blank">
-                <button
-                  class="btn waves-effect waves-light"
-                  type="submit"
-                  name="action"
-                >
-                  GitHub
-                  <i class="material-icons right">send</i>
-                </button>
-              </a>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col m12 l6 center">
-              <div class="card-panel">
-                <img
-                  src="img/trevor_bruenchenhein.jpeg"
-                  alt="Trevor Bruenchenhein"
-                  class="responsive-img"
-                />
-                <p>Trevor Bruenchenhein</p>
-                <p class="flow-text">
-                  App Back End Developer
-                </p>
-                <a href="https://github.com/tjvonbr" target="_blank">
-                  <button
-                    class="btn waves-effect waves-light"
-                    type="submit"
-                    name="action"
-                  >
-                    GitHub
-                    <i class="material-icons right">send</i>
-                  </button>
-                </a>
-              </div>
-            </div>
-
-            <div class="col m12 l6 center">
-              <div class="card-panel">
-                <img
-                  src="https://source.unsplash.com/1600x900/?man"
-                  alt=""
-                  class="responsive-img"
-                />
-                <p>Ryan Wisniewski</p>
-                <p class="flow-text">
-                  App Back End Developer
-                </p>
-                <a href="https://github.com/Ryan-Wisniewski" target="_blank">
-                  <button
-                    class="btn waves-effect waves-light"
-                    type="submit"
-                    name="action"
-                  >
-                    GitHub
-                    <i class="material-icons right">send</i>
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col m12 l6 center">
-              <div class="card-panel">
-                <img
-                  src="img/knox_jarvis.png"
-                  alt="Knox Jarvis"
-                  class="responsive-img"
-                />
-                <p>Knox Jarvis</p>
-                <p class="flow-text">
-                  App Back End Developer
-                </p>
-                <a href="https://github.com/knoxj1" target="_blank">
-                  <button
-                    class="btn waves-effect waves-light"
-                    type="submit"
-                    name="action"
-                  >
-                    GitHub
-                    <i class="material-icons right">send</i>
-                  </button>
-                </a>
-              </div>
-            </div>
-
-            <div class="col m12 l6 center">
-              <div class="card-panel">
-                <img
-                  src="img/jeff_oliver.jpeg"
-                  alt="Jeff Oliver"
-                  class="responsive-img"
-                />
-                <p>Jeff Oliver</p>
-                <p class="flow-text">
-                  Project Lead
-                </p>
-                <a href="https://github.com/codeOfTheFuture" target="_blank">
-                  <button
-                    class="btn waves-effect waves-light"
-                    type="submit"
-                    name="action"
-                  >
-                    GitHub
-                    <i class="material-icons right">send</i>
-                  </button>
-                </a>
-              </div>
-            </div>
+        <div class="col s12 m4 center">
+          <div class="card-panel">
+            <img src="img/trevor_bruenchenhein.jpeg" alt="Trevor Bruenchenhein" class="responsive-img" />
+            <p>Trevor Bruenchenhein</p>
+            <p class="flow-text">
+              App Back End Developer
+            </p>
+            <a href="https://github.com/tjvonbr" target="_blank">
+              <button class="btn waves-effect waves-light" type="submit" name="action">
+                GitHub
+                <i class="material-icons right">send</i>
+              </button>
+            </a>
           </div>
         </div>
       </div>
-    </section>
 
-    <!-- Footer Section -->
-    <footer class="section section-footer center blue lighten-2">
-      <p>Copyright &copy; 2019. Split The Bill.</p>
-    </footer>
+      <div class="row">
+        <div class="col s12 m4 center">
+          <div class="card-panel">
+            <img src="https://source.unsplash.com/1600x900/?man" alt="" class="responsive-img" />
+            <p>Ryan Wisniewski</p>
+            <p class="flow-text">
+              App Back End Developer
+            </p>
+            <a href="https://github.com/Ryan-Wisniewski" target="_blank">
+              <button class="btn waves-effect waves-light" type="submit" name="action">
+                GitHub
+                <i class="material-icons right">send</i>
+              </button>
+            </a>
+          </div>
+        </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script>
-      // ScrollSpy
-      const scrollSpy = document.querySelectorAll(".scrollspy");
-      M.ScrollSpy.init(scrollSpy, {});
+        <div class="col s12 m4 center">
+          <div class="card-panel">
+            <img src="img/knox_jarvis.png" alt="Knox Jarvis" class="responsive-img" />
+            <p>Knox Jarvis</p>
+            <p class="flow-text">
+              App Back End Developer
+            </p>
+            <a href="https://github.com/knoxj1" target="_blank">
+              <button class="btn waves-effect waves-light" type="submit" name="action">
+                GitHub
+                <i class="material-icons right">send</i>
+              </button>
+            </a>
+          </div>
+        </div>
 
-      // Mobile Nav
-      const sideNav = document.querySelector(".sidenav");
-      M.Sidenav.init(sideNav, {});
-    </script>
-  </body>
+        <div class="col s12 m4 center">
+          <div class="card-panel">
+            <img src="img/jeff_oliver.jpeg" alt="Jeff Oliver" class="responsive-img" />
+            <p>Jeff Oliver</p>
+            <p class="flow-text">
+              Project Lead
+            </p>
+            <a href="https://github.com/codeOfTheFuture" target="_blank">
+              <button class="btn waves-effect waves-light" type="submit" name="action">
+                GitHub
+                <i class="material-icons right">send</i>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="section section-footer center blue lighten-2">
+    <p>Copyright &copy; 2019. Split The Bill.</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    // ScrollSpy
+    const scrollSpy = document.querySelectorAll(".scrollspy");
+    M.ScrollSpy.init(scrollSpy, {});
+
+    // Mobile Nav
+    const sideNav = document.querySelector(".sidenav");
+    M.Sidenav.init(sideNav, {});
+  </script>
+</body>
+
 </html>
