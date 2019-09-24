@@ -49,6 +49,19 @@
     .card .card-content{
         padding: 12px;
     }
+
+    ul.sidenav {
+      display: flex;
+      height: 100vh;
+      width: 35vw;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+    }
+
+    ul.sidenav .tabs {
+      height: 45% !important;
+    }
 }
 
 .tabs{
