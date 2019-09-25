@@ -1,89 +1,74 @@
-.cards div{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 2%;
-    margin-top: 0;
-    margin-bottom: 2%;
-}
-#personal-account{
-    margin-left: 0;
-}
-#track-payments{
-    margin-left: 0;
-}
-.container-features{
-    text-align: center;
-    margin: 0 auto;
-}
-.cards div div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 250px;
-    height: 250px;
-}
-.card .card-content{
-    padding: 12px;
-    padding-left: 0;
-}
-@media screen and (max-width: 992px){
-    .cards div{
-        flex-direction: column;
-        margin: 0 auto;
-        margin-top: 2%;
-    }
-    #personal-account{
-        margin-left: auto;
-    }
-    #track-payments{
-        margin-left: auto;
-    }
-    .cards div div{
-        width: 100%;
-        min-width: 250px;
-    }
-    #view-plates{
-        margin-bottom: 5%;
-    }
-    .card .card-content{
-        padding: 12px;
-    }
-
-    ul.sidenav {
-      display: flex;
-      height: 100vh;
-      width: 35vw;
-      -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-      flex-direction: column;
-    }
-
-    ul.sidenav .tabs {
-      height: 45% !important;
-    }
+.nav-wrapper {
+  background-color: #56baed !important;
 }
 
-.tabs{
-    display: flex;
-    justify-content: flex-end;
-    width: 80%;
-    height: 56px;
-    background-color: transparent;
+.btn {
+  background-color: #eb5160 !important;
+  color: #303036 !important;
 }
-.tabs .tab{
-    text-align: center;
-}
-.tabs .tab a{
-    color: white;
-    margin-top: 10px;
-}
-.tabs .tab a:hover{
-    color: white;
-}
-.tabs .tab a.active{
-    color: white;
 
+.mint-text {
+  color: #bed8d4 !important;
+}
+
+.cards div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2%;
+  margin-top: 0;
+  margin-bottom: 2%;
+}
+#personal-account {
+  margin-left: 0;
+}
+#track-payments {
+  margin-left: 0;
+}
+.container-features {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #303036 !important;
+}
+
+.cards div div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 250px;
+  height: 250px;
+}
+.card .card-content {
+  padding: 12px;
+  padding-left: 0;
+}
+
+.tabs {
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+  height: 56px;
+  background-color: transparent;
+}
+.tabs .tab {
+  text-align: center;
+}
+.tabs .tab a {
+  color: #303036;
+  margin-top: 10px;
+}
+.tabs .tab a:hover {
+  color: white;
+}
+.tabs .tab a.active {
+  color: white;
+}
+
+li.indicator {
+  background-color: #eb5160 !important;
 }
 * {
   max-width: 100%;
@@ -92,24 +77,69 @@
   height: 45%;
 }
 
-.mobile-nav{
-    height: 60%;
-    display: flex;
+.mobile-nav {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  margin: 10%;
+}
+.sidenav {
+  width: 40%;
+  min-width: 200px;
+  height: 100%;
+  background-color: #56baed;
+  align-content: center;
+}
+.sidenav .tab {
+  height: 2px;
+  align-items: center;
+  align-content: center;
+}
+.sidenav .tab a {
+  height: 56px;
+}
+
+footer {
+  background-color: #56baed !important;
+}
+
+footer p {
+  color: #303036 !important;
+}
+
+@media screen and (max-width: 992px) {
+  .cards div {
     flex-direction: column;
-    margin: 10%;
-}
-.sidenav{
-    width: 40%;
-    min-width: 200px;
-    height: 100%;
-    background-color: #ee6e73;
-    align-content: center;
-}
-.sidenav .tab{
-    height: 2px;
-    align-items: center;
-    align-content: center;
-}
-.sidenav .tab a{
-    height: 56px;
+    margin: 0 auto;
+    margin-top: 2%;
+  }
+  #personal-account {
+    margin-left: auto;
+  }
+  #track-payments {
+    margin-left: auto;
+  }
+  .cards div div {
+    width: 100%;
+    min-width: 250px;
+  }
+  #view-plates {
+    margin-bottom: 5%;
+  }
+  .card .card-content {
+    padding: 12px;
+  }
+
+  ul.sidenav {
+    display: flex;
+    height: 100vh;
+    width: 35vw;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  ul.sidenav .tabs {
+    height: 45% !important;
+  }
 }

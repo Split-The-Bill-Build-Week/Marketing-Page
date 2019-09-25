@@ -28,24 +28,27 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
   </head>
   <body id="home" class="scrollspy">
-    <nav>
-      <div class="nav-wrapper">
-        <div class="container">
-          <a href="#home" class="brand-logo scrollspy">Split The Bill</a>
-          <a href="" data-target="mobile-nav" class="sidenav-trigger">
-            <i class="material-icons">menu</i>
-          </a>
-          <ul class="right hide-on-med-and-down tabs">
-            <li class="tab"><a class="active" href="#about">About Us</a></li>
-            <li class="tab"><a class="" href="#features">Features</a></li>
-            <li class="tab"><a class="" href="#team">Our Team</a></li>
-            <li>
-              <a class="waves-effect waves-light btn">Sign In</a>
-            </li>
-          </ul>
+    <!-- Navbar -->
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+          <div class="container">
+            <a href="#home" class="brand-logo scrollspy">Split The Bill</a>
+            <a href="" data-target="mobile-nav" class="sidenav-trigger">
+              <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down tabs">
+              <li class="tab"><a class="active" href="#about">About Us</a></li>
+              <li class="tab"><a class="" href="#features">Features</a></li>
+              <li class="tab"><a class="" href="#team">Our Team</a></li>
+              <li>
+                <a class="waves-effect waves-light btn">Sign In</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
 
     <div class="sidenav" id="mobile-nav">
       <ul class="mobile-nav tabs">
@@ -101,8 +104,8 @@
         <div class="row1">
           <div class="row" id="personal-account">
             <div class="col">
-              <div class="card blue-grey darken-1">
-                <div class="card-content white-text">
+              <div class="card">
+                <div class="card-content mint-text">
                   <i class="medium material-icons">account_circle</i>
                   <span class="card-title">Personal Account</span>
                   <p>
@@ -114,8 +117,8 @@
           </div>
           <div class="row" id="track-spending">
             <div class="col">
-              <div class="card blue-grey darken-1">
-                <div class="card-content white-text">
+              <div class="card">
+                <div class="card-content mint-text">
                   <i class="medium material-icons">show_chart</i>
                   <span class="card-title">Track Spending</span>
                   <p>
@@ -127,8 +130,8 @@
           </div>
           <div class="row" id="invite-friends">
             <div class="col">
-              <div class="card blue-grey darken-1">
-                <div class="card-content white-text">
+              <div class="card">
+                <div class="card-content mint-text">
                   <i class="medium material-icons">group</i>
                   <span class="card-title">Invite Friends</span>
                   <p>
@@ -142,8 +145,8 @@
         <div class="row2">
           <div class="row" id="track-payments">
             <div class="col">
-              <div class="card blue-grey darken-1">
-                <div class="card-content white-text">
+              <div class="card">
+                <div class="card-content mint-text">
                   <i class="medium material-icons">check_box</i>
                   <span class="card-title">Track Payments</span>
                   <p>
@@ -155,8 +158,8 @@
           </div>
           <div class="row" id="add-tip">
             <div class="col">
-              <div class="card blue-grey darken-1">
-                <div class="card-content white-text">
+              <div class="card">
+                <div class="card-content mint-text">
                   <i class="medium material-icons">add_circle</i>
                   <span class="card-title">Add Tip</span>
                   <p>
@@ -168,8 +171,8 @@
           </div>
           <div class="row" id="view-plates">
             <div class="col">
-              <div class="card blue-grey darken-1">
-                <div class="card-content white-text">
+              <div class="card">
+                <div class="card-content mint-text">
                   <i class="medium material-icons">local_dining</i>
                   <span class="card-title">View Plates</span>
                   <p>
@@ -421,18 +424,18 @@
     </section>
 
     <!-- Footer Section -->
-    <footer class="section section-footer center blue lighten-2">
+    <footer class="section section-footer center white-text">
       <p>Copyright &copy; 2019. Split The Bill.</p>
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script>
       // ScrollSpy
-      const scrollSpy = document.querySelectorAll(".scrollspy");
+      const scrollSpy = document.querySelectorAll('.scrollspy');
       M.ScrollSpy.init(scrollSpy, {});
 
       // Mobile Nav
-      const sideNav = document.querySelector(".sidenav");
+      const sideNav = document.querySelector('.sidenav');
       M.Sidenav.init(sideNav, {});
     </script>
   </body>
