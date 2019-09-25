@@ -1,3 +1,16 @@
+.nav-wrapper {
+  background-color: #56baed !important;
+}
+
+.btn {
+  background-color: #eb5160 !important;
+  color: #303036 !important;
+}
+
+.mint-text {
+  color: #bed8d4 !important;
+}
+
 .cards div {
   display: flex;
   flex-direction: row;
@@ -16,6 +29,11 @@
   text-align: center;
   margin: 0 auto;
 }
+
+.card {
+  background-color: #303036 !important;
+}
+
 .cards div div {
   display: flex;
   flex-direction: column;
@@ -39,7 +57,7 @@
   text-align: center;
 }
 .tabs .tab a {
-  color: white;
+  color: #303036;
   margin-top: 10px;
 }
 .tabs .tab a:hover {
@@ -47,6 +65,10 @@
 }
 .tabs .tab a.active {
   color: white;
+}
+
+li.indicator {
+  background-color: #eb5160 !important;
 }
 * {
   max-width: 100%;
@@ -65,7 +87,7 @@
   width: 40%;
   min-width: 200px;
   height: 100%;
-  background-color: #ee6e73;
+  background-color: #56baed;
   align-content: center;
 }
 .sidenav .tab {
@@ -75,6 +97,14 @@
 }
 .sidenav .tab a {
   height: 56px;
+}
+
+footer {
+  background-color: #56baed !important;
+}
+
+footer p {
+  color: #303036 !important;
 }
 
 @media screen and (max-width: 992px) {
