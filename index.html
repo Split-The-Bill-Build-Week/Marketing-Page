@@ -7,27 +7,28 @@
         <title>Split The Bill</title>
 
         <link
-            href="https://fonts.googleapis.com/icon?family=Material+Icons"
-            rel="stylesheet"
-        />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-        />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.1/css/all.min.css"
-            integrity="sha256-PbSmjxuVAzJ6FPvNYsrXygfGhNJYyZ2GktDbkMBqQZg="
-            crossorigin="anonymous"
-        />
-        <link rel="stylesheet" href="css/style.css" />
-        <script
-            type="text/javascript"
-            src="https://code.jquery.com/jquery-2.1.1.min.js"
-        ></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.1/css/all.min.css"
+      integrity="sha256-PbSmjxuVAzJ6FPvNYsrXygfGhNJYyZ2GktDbkMBqQZg="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <script type = "text/javascript"
+         src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>           
+      <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">
+      </script> 
     </head>
+
     <body id="home" class="scrollspy">
+
         <!-- Navbar -->
         <div class="navbar-fixed">
             <nav>
@@ -57,7 +58,7 @@
                                 <a
                                     href="https://splitthebillbw.netlify.com/"
                                     target="_blank"
-                                    class="waves-effect waves-light btn"
+                                    class="waves-effect waves-light btn custom-button"
                                     >Sign In</a
                                 >
                             </li>
@@ -67,6 +68,7 @@
             </nav>
         </div>
 
+        <!-- Side Nav -->
         <div class="sidenav" id="mobile-nav">
             <ul class="mobile-nav tabs">
                 <li class="tab sidenav-close"><a href="#about">About Us</a></li>
@@ -78,7 +80,7 @@
                     <a
                         href="https://splitthebillbw.netlify.com/"
                         target="_blank"
-                        class="waves-effect waves-light btn"
+                        class="waves-effect waves-light btn custom-button"
                         >Sign In</a
                     >
                 </li>
@@ -130,114 +132,83 @@
         <div id="features" class="container-features">
             <h1>Features</h1>
             <p>Explore our features</p>
+
             <div class="cards">
+
                 <div class="row1">
                     <div class="row" id="personal-account">
-                        <div class="col">
-                            <div class="card">
-                                <div class="card-content mint-text">
-                                    <i class="medium material-icons"
-                                        >account_circle</i
-                                    >
-                                    <span class="card-title"
-                                        >Personal Account</span
-                                    >
-                                    <p>
-                                        Create your own account with an username
-                                        and email
-                                    </p>
-                                </div>
+                    <div class="col">
+                        <div class="card blue-grey darken-1">
+                            <div class="card-content white-text">
+                            <i class="medium material-icons">account_circle</i>
+                            <span class="card-title">Personal Account</span>
+                            <p>Split The Bill stores your information securly on your personal account.</p>
                             </div>
                         </div>
                     </div>
+                    </div>
                     <div class="row" id="track-spending">
                         <div class="col">
-                            <div class="card">
-                                <div class="card-content mint-text">
-                                    <i class="medium material-icons"
-                                        >show_chart</i
-                                    >
-                                    <span class="card-title"
-                                        >Track Spending</span
-                                    >
-                                    <p>
-                                        Track your previous meals and the price
-                                    </p>
-                                </div>
+                        <div class="card blue-grey darken-1">
+                            <div class="card-content white-text">
+                                <i class="medium material-icons">show_chart</i>
+                                <span class="card-title">Track Spending</span>
+                                <p>Split The Bill allows you to track your overall spending for the month.</p>
                             </div>
+                        </div>
                         </div>
                     </div>
                     <div class="row" id="invite-friends">
                         <div class="col">
-                            <div class="card">
-                                <div class="card-content mint-text">
-                                    <i class="medium material-icons">group</i>
-                                    <span class="card-title"
-                                        >Invite Friends</span
-                                    >
-                                    <p>
-                                        Invite your friends to your table to
-                                        split the bill
-                                    </p>
-                                </div>
+                        <div class="card blue-grey darken-1">
+                            <div class="card-content white-text">
+                                <i class="medium material-icons">group</i>
+                                <span class="card-title">Invite Friends</span>
+                                <p>You can invite your friends allowing them to send and receive requests.</p>
                             </div>
+                        </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="row2">
                     <div class="row" id="track-payments">
                         <div class="col">
-                            <div class="card">
-                                <div class="card-content mint-text">
-                                    <i class="medium material-icons"
-                                        >check_box</i
-                                    >
-                                    <span class="card-title"
-                                        >Track Payments</span
-                                    >
-                                    <p>
-                                        Mark off who has paid their portion and
-                                        who still needs to pay
-                                    </p>
-                                </div>
+                        <div class="card blue-grey darken-1">
+                            <div class="card-content white-text">
+                                <i class="medium material-icons">check_box</i>
+                                <span class="card-title">Track Payments</span>
+                                <p>You can track the status of your payments through the whole process.</p>
                             </div>
+                        </div>
                         </div>
                     </div>
                     <div class="row" id="add-tip">
                         <div class="col">
-                            <div class="card">
-                                <div class="card-content mint-text">
-                                    <i class="medium material-icons"
-                                        >add_circle</i
-                                    >
-                                    <span class="card-title">Add Tip</span>
-                                    <p>
-                                        Easily add a tip to the total meal price
-                                        so each person can pay their tip portion
-                                    </p>
-                                </div>
+                        <div class="card blue-grey darken-1">
+                            <div class="card-content white-text">
+                                <i class="medium material-icons">add_circle</i>
+                                <span class="card-title">Add Tip</span>
+                                <p>Easily add standard tip percentages to your bill.</p>
                             </div>
+                        </div>
                         </div>
                     </div>
                     <div class="row" id="view-plates">
                         <div class="col">
-                            <div class="card">
-                                <div class="card-content mint-text">
-                                    <i class="medium material-icons"
-                                        >local_dining</i
-                                    >
-                                    <span class="card-title">View Plates</span>
-                                    <p>
-                                        See all the plates that your friends
-                                        have added to the table
-                                    </p>
-                                </div>
+                        <div class="card blue-grey darken-1">
+                            <div class="card-content white-text">
+                                <i class="medium material-icons">local_dining</i>
+                                <span class="card-title">View Plates</span>
+                                <p>You can view previous bills split amongst you and your friends.</p>
                             </div>
+                        </div>
                         </div>
                     </div>
                 </div>
+                
             </div>
-        </div>
+      </div>
 
         <!-- Team Section -->
         <section class="section section-features lighten-2 scrollspy" id="team">
@@ -266,7 +237,7 @@
                                 target="_blank"
                             >
                                 <button
-                                    class="btn waves-effect waves-light"
+                                    class="btn waves-effect custom-button"
                                     type="submit"
                                     name="action"
                                 >
@@ -293,7 +264,7 @@
                                 target="_blank"
                             >
                                 <button
-                                    class="btn waves-effect waves-light"
+                                    class="btn waves-effect waves-light custom-button"
                                     type="submit"
                                     name="action"
                                 >
@@ -320,7 +291,7 @@
                                 target="_blank"
                             >
                                 <button
-                                    class="btn waves-effect waves-light"
+                                    class="btn waves-effect waves-light custom-button"
                                     type="submit"
                                     name="action"
                                 >
@@ -349,7 +320,7 @@
                                 target="_blank"
                             >
                                 <button
-                                    class="btn waves-effect waves-light"
+                                    class="btn waves-effect waves-light custom-button"
                                     type="submit"
                                     name="action"
                                 >
@@ -376,7 +347,7 @@
                                 target="_blank"
                             >
                                 <button
-                                    class="btn waves-effect waves-light"
+                                    class="btn waves-effect waves-light custom-button"
                                     type="submit"
                                     name="action"
                                 >
@@ -403,7 +374,7 @@
                                 target="_blank"
                             >
                                 <button
-                                    class="btn waves-effect waves-light"
+                                    class="btn waves-effect waves-light custom-button"
                                     type="submit"
                                     name="action"
                                 >
@@ -432,7 +403,7 @@
                                 target="_blank"
                             >
                                 <button
-                                    class="btn waves-effect waves-light"
+                                    class="btn waves-effect waves-light custom-button"
                                     type="submit"
                                     name="action"
                                 >
@@ -456,7 +427,7 @@
                             </p>
                             <a href="https://github.com/knoxj1" target="_blank">
                                 <button
-                                    class="btn waves-effect waves-light"
+                                    class="btn waves-effect waves-light custom-button"
                                     type="submit"
                                     name="action"
                                 >
@@ -483,7 +454,7 @@
                                 target="_blank"
                             >
                                 <button
-                                    class="btn waves-effect waves-light"
+                                    class="btn waves-effect waves-light custom-button"
                                     type="submit"
                                     name="action"
                                 >
