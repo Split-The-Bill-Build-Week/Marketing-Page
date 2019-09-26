@@ -1,0 +1,83 @@
+.nav-wrapper {
+    background-color: @nav-bg !important;
+    .btn {
+        background-color: @button-bg !important;
+        color: @font-color !important;
+    }
+    .tabs {
+        display: flex;
+        justify-content: flex-end;
+        width: 80%;
+        height: 56px;
+        background-color: transparent; 
+        .tab {
+            text-align: center;
+            a {
+                color: @font-color;
+                margin-top: 10px;
+            }  
+            a:hover {
+                color: @nav-color-alt;
+            }
+            a.active {
+                color: @nav-color-alt;
+            }
+        }
+        
+    }
+    li.indicator {
+        background-color: @button-bg !important;
+    }
+}
+ 
+  
+  
+  
+.sidenav {
+width: 40%;
+min-width: 200px;
+height: 100%;
+background-color: @nav-bg;
+align-content: center;
+    .mobile-nav {
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        background-color: @nav-bg;
+        margin-top: 10%;
+        .tab {
+            height: 2px;
+            align-items: center;
+            align-content: center;
+            a {
+                height: 56px;
+                color: @font-color;
+                margin-top: 10px;
+            }  
+            a:hover {
+                color: @nav-color-alt;
+            }
+            a.active {
+                color: @nav-color-alt;
+            }
+        }
+        .btn {
+            background-color: @button-bg !important;
+            color: @font-color !important;
+        }
+    }
+}
+
+@media @mobile{
+    ul.sidenav {
+        display: flex;
+        height: 100vh;
+        width: 35vw;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        .tabs {
+            height: 45% !important;
+        }
+    }
+}

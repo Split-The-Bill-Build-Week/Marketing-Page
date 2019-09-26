@@ -1,0 +1,154 @@
+.nav-wrapper {
+  background-color: #56baed !important;
+}
+.nav-wrapper .btn {
+  background-color: #eb5160 !important;
+  color: #303036 !important;
+}
+.nav-wrapper .tabs {
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+  height: 56px;
+  background-color: transparent;
+}
+.nav-wrapper .tabs .tab {
+  text-align: center;
+}
+.nav-wrapper .tabs .tab a {
+  color: #303036;
+  margin-top: 10px;
+}
+.nav-wrapper .tabs .tab a:hover {
+  color: white;
+}
+.nav-wrapper .tabs .tab a.active {
+  color: white;
+}
+.nav-wrapper li.indicator {
+  background-color: #eb5160 !important;
+}
+.sidenav {
+  width: 40%;
+  min-width: 200px;
+  height: 100%;
+  background-color: #56baed;
+  align-content: center;
+}
+.sidenav .mobile-nav {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  background-color: #56baed;
+  margin-top: 10%;
+}
+.sidenav .mobile-nav .tab {
+  height: 2px;
+  align-items: center;
+  align-content: center;
+}
+.sidenav .mobile-nav .tab a {
+  height: 56px;
+  color: #303036;
+  margin-top: 10px;
+}
+.sidenav .mobile-nav .tab a:hover {
+  color: white;
+}
+.sidenav .mobile-nav .tab a.active {
+  color: white;
+}
+.sidenav .mobile-nav .btn {
+  background-color: #eb5160 !important;
+  color: #303036 !important;
+}
+@media (max-width: 992px) {
+  ul.sidenav {
+    display: flex;
+    height: 100vh;
+    width: 35vw;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  ul.sidenav .tabs {
+    height: 45% !important;
+  }
+}
+* {
+  max-width: 100%;
+}
+.mint-text {
+  color: #bed8d4 !important;
+}
+.container-features {
+  text-align: center;
+  margin: 0 auto;
+}
+.container-features .cards div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2%;
+  margin-top: 0;
+  margin-bottom: 2%;
+}
+@media (max-width: 992px) {
+  .container-features .cards div {
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 2%;
+  }
+}
+.container-features .cards div #personal-account {
+  margin-left: 0;
+}
+@media (max-width: 992px) {
+  .container-features .cards div #personal-account {
+    margin-left: auto;
+  }
+}
+.container-features .cards div #track-payments {
+  margin-left: 0;
+}
+@media (max-width: 992px) {
+  .container-features .cards div #track-payments {
+    margin-left: auto;
+  }
+}
+.container-features .cards div div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 250px;
+  height: 250px;
+}
+@media (max-width: 992px) {
+  .container-features .cards div div {
+    width: 100%;
+    min-width: 250px;
+  }
+}
+@media (max-width: 992px) {
+  .container-features .cards div #view-plates {
+    margin-bottom: 5%;
+  }
+}
+.container-features .cards div .card {
+  background-color: #303036 !important;
+}
+.container-features .cards div .card .card-content {
+  padding: 12px;
+  padding-left: 0;
+}
+@media (max-width: 992px) {
+  .container-features .cards div .card .card-content {
+    padding: 12px;
+  }
+}
+footer {
+  background-color: #56baed !important;
+}
+footer p {
+  color: #303036 !important;
+}

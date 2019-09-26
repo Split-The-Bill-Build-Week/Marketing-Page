@@ -1,0 +1,56 @@
+.container-features {
+    text-align: center;
+    margin: 0 auto;
+    .cards div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 2%;
+        margin-top: 0;
+        margin-bottom: 2%;
+        @media @mobile{
+            flex-direction: column;
+            margin: 0 auto;
+            margin-top: 2%;
+        }
+        #personal-account {
+            margin-left: 0;
+            @media @mobile{
+                margin-left: auto;
+            }
+        }
+        #track-payments {
+            margin-left: 0;
+            @media @mobile{
+                margin-left: auto;
+            }
+        }
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 250px;
+            height: 250px;
+            @media @mobile {
+                width: 100%;
+                min-width: 250px;
+            }
+        }
+        @media @mobile{
+            #view-plates{
+                margin-bottom: 5%;
+            }
+        }
+        .card {
+            background-color: @feature-card-color !important;
+            .card-content {
+                padding: 12px;
+                padding-left: 0;
+                @media @mobile{
+                    padding: 12px;
+                }
+            }
+        }
+    }
+}
+  
